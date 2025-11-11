@@ -74,6 +74,39 @@ KBO 야구 데이터를 활용한 투구 분석 연구 결과 모음입니다.
 
 ---
 
+### 4. [스트라이크 존 제구력 연구 (2021-2025)](strike_zone_command/)
+**기간**: 2021-2025 시즌 (5시즌)
+**대상**: 236명 투수 (100구 이상)
+**목적**: KBO 투수들의 스트라이크 존 제구력 종합 분석
+
+**주요 분석 내용**:
+- ABS 존 기준 제구율 분석 (규정 존 + 공 반지름)
+- 시즌별 추이 분석 (2021-2025)
+- Heart/Shadow/Waste 존 분포
+- CSW% (Called Strike + Whiff %) 분석
+- 상황별 제구력 변화 (카운트, 주자, 구종)
+
+**결과물**:
+- 최종 보고서: [COMPREHENSIVE_REPORT_V2.md](strike_zone_command/COMPREHENSIVE_REPORT_V2.md)
+- 20개 CSV 데이터 파일
+- 5개 JSON 분석 결과
+
+**핵심 발견사항**:
+- **평균 제구율 47.06%** - 투구의 절반도 존에 안 들어감
+- **2024년 미스터리 급락** - 전년 대비 -3.00%p 하락
+- **제구력 개선 극히 드물다** - 3년 연속 개선 vs 하락 = 1:12 (4명 vs 49명)
+- **생존편향 존재** - 100-200구 투수 45.16% vs 1000구+ 투수 47.36% (+2.20%p)
+- **상황별 전략 변화** - 투스트라이크 시 Heart -5.06%p, Shadow +5.06%p
+- **구종별 차이** - Fastball 52.77% vs OffSpeed 38.52% (차이 14.25%p)
+
+**주요 인사이트**:
+- "네모 안으로 던지기"는 야구에서 가장 어려운 기술
+- KBO 투수들은 정중앙(Heart) 16.66%만 사용 → 의도적 중앙 회피
+- 순수 스트라이크(CSW)는 26.92% → 10구 중 2.7개만
+- 제구력은 타고난 능력이며 개선이 거의 불가능
+
+---
+
 ## 🗂️ 디렉토리 구조
 
 ```
@@ -87,10 +120,16 @@ baseball_research_results/
 │   ├── README.md                      # 연구 개요
 │   ├── data/                          # 투수 목록 (CSV)
 │   └── output/                        # 126개 차트 (PNG)
-└── diaz_homerun_2025/                 # 디아즈 홈런 분석
+├── diaz_homerun_2025/                 # 디아즈 홈런 분석
+│   ├── README.md                      # 연구 개요
+│   ├── data/                          # 홈런 투구 데이터 (CSV)
+│   └── output/                        # 로케이션 차트 (PNG)
+└── strike_zone_command/               # 스트라이크 존 제구력 연구
     ├── README.md                      # 연구 개요
-    ├── data/                          # 홈런 투구 데이터 (CSV)
-    └── output/                        # 로케이션 차트 (PNG)
+    ├── COMPREHENSIVE_REPORT_V2.md     # 최종 종합 보고서
+    ├── *.csv                          # 20개 CSV 데이터 파일
+    ├── *.json                         # 5개 JSON 분석 결과
+    └── output/                        # 시각화 차트 (PNG)
 ```
 
 ---
@@ -127,4 +166,4 @@ baseball_research_results/
 ## 👤 Author
 
 **Baseball Research Project**
-Last Updated: 2025-11-10
+Last Updated: 2025-11-11
