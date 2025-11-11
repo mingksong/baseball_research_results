@@ -1,0 +1,289 @@
+{
+  "analysis_type": "Heart/Shadow/Waste Zone Analysis (Baseball Savant Style)",
+  "date": "2025-11-11",
+  "zone_definitions": {
+    "plate_half_width_ft": 0.7083,
+    "shadow_pad_lr_ft": 0.275,
+    "shadow_pad_ud_ft": 0.3333,
+    "heart_half_width_ft": 0.4333,
+    "description": {
+      "heart": "중앙 코어 존 (|x| ≤ 0.4333, sz_bot+0.33 ≤ z ≤ sz_top-0.33)",
+      "shadow": "엣지 링 존 (규정존±pad - Heart)",
+      "waste": "Shadow 밖 모든 구역",
+      "all_strike": "Heart + Shadow"
+    }
+  },
+  "league_average": {
+    "heart_pct": 16.66466101694915,
+    "shadow_pct": 41.56237288135593,
+    "waste_pct": 41.773262711864405,
+    "all_strike_pct": 58.226737288135595,
+    "heart_ratio": 28.574745762711864
+  },
+  "by_count": [
+    {
+      "count_situation": "First Pitch",
+      "total_pitches": 57078,
+      "heart_pct": 18.88,
+      "shadow_pct": 44.16,
+      "all_strike_pct": 63.04,
+      "heart_ratio": 29.95
+    },
+    {
+      "count_situation": "Ahead",
+      "total_pitches": 27902,
+      "heart_pct": 14.88,
+      "shadow_pct": 40.43,
+      "all_strike_pct": 55.31,
+      "heart_ratio": 26.9
+    },
+    {
+      "count_situation": "Behind",
+      "total_pitches": 42601,
+      "heart_pct": 19.57,
+      "shadow_pct": 46.41,
+      "all_strike_pct": 65.98,
+      "heart_ratio": 29.67
+    },
+    {
+      "count_situation": "Even",
+      "total_pitches": 22296,
+      "heart_pct": 17.72,
+      "shadow_pct": 43.22,
+      "all_strike_pct": 60.94,
+      "heart_ratio": 29.08
+    },
+    {
+      "count_situation": "Two Strikes",
+      "total_pitches": 64097,
+      "heart_pct": 13.82,
+      "shadow_pct": 37.94,
+      "all_strike_pct": 51.77,
+      "heart_ratio": 26.71
+    },
+    {
+      "count_situation": "Three Balls",
+      "total_pitches": 7940,
+      "heart_pct": 21.27,
+      "shadow_pct": 47.04,
+      "all_strike_pct": 68.31,
+      "heart_ratio": 31.14
+    }
+  ],
+  "by_runners": [
+    {
+      "runners_situation": "Empty",
+      "total_pitches": 119204,
+      "heart_pct": 17.67,
+      "shadow_pct": 43.25,
+      "all_strike_pct": 60.92,
+      "heart_ratio": 29.0
+    },
+    {
+      "runners_situation": "On Base",
+      "total_pitches": 46741,
+      "heart_pct": 16.97,
+      "shadow_pct": 41.94,
+      "all_strike_pct": 58.91,
+      "heart_ratio": 28.81
+    },
+    {
+      "runners_situation": "RISP",
+      "total_pitches": 55969,
+      "heart_pct": 15.67,
+      "shadow_pct": 40.71,
+      "all_strike_pct": 56.38,
+      "heart_ratio": 27.8
+    }
+  ],
+  "by_pitch_type": [
+    {
+      "pitch_category": "Fastball",
+      "total_pitches": 119561,
+      "heart_pct": 19.51,
+      "shadow_pct": 45.47,
+      "all_strike_pct": 64.98,
+      "heart_ratio": 30.02
+    },
+    {
+      "pitch_category": "Breaking",
+      "total_pitches": 65182,
+      "heart_pct": 15.28,
+      "shadow_pct": 39.16,
+      "all_strike_pct": 54.45,
+      "heart_ratio": 28.07
+    },
+    {
+      "pitch_category": "OffSpeed",
+      "total_pitches": 37161,
+      "heart_pct": 12.07,
+      "shadow_pct": 37.81,
+      "all_strike_pct": 49.87,
+      "heart_ratio": 24.19
+    }
+  ],
+  "top_10_pitchers": [
+    {
+      "pitcher_name": "조이현",
+      "total_pitches": 175,
+      "heart_pct": 22.29,
+      "shadow_pct": 53.14,
+      "all_strike_pct": 75.43,
+      "heart_ratio": 29.55
+    },
+    {
+      "pitcher_name": "구창모",
+      "total_pitches": 231,
+      "heart_pct": 24.68,
+      "shadow_pct": 47.62,
+      "all_strike_pct": 72.29,
+      "heart_ratio": 34.13
+    },
+    {
+      "pitcher_name": "한현희",
+      "total_pitches": 168,
+      "heart_pct": 22.02,
+      "shadow_pct": 47.02,
+      "all_strike_pct": 69.05,
+      "heart_ratio": 31.9
+    },
+    {
+      "pitcher_name": "소형준",
+      "total_pitches": 2271,
+      "heart_pct": 20.43,
+      "shadow_pct": 47.42,
+      "all_strike_pct": 67.86,
+      "heart_ratio": 30.11
+    },
+    {
+      "pitcher_name": "윤태호",
+      "total_pitches": 277,
+      "heart_pct": 16.61,
+      "shadow_pct": 50.9,
+      "all_strike_pct": 67.51,
+      "heart_ratio": 24.6
+    },
+    {
+      "pitcher_name": "패트릭",
+      "total_pitches": 947,
+      "heart_pct": 20.06,
+      "shadow_pct": 46.46,
+      "all_strike_pct": 66.53,
+      "heart_ratio": 30.16
+    },
+    {
+      "pitcher_name": "알칸타라",
+      "total_pitches": 1750,
+      "heart_pct": 19.03,
+      "shadow_pct": 46.69,
+      "all_strike_pct": 65.71,
+      "heart_ratio": 28.96
+    },
+    {
+      "pitcher_name": "원태인",
+      "total_pitches": 2445,
+      "heart_pct": 20.08,
+      "shadow_pct": 45.32,
+      "all_strike_pct": 65.4,
+      "heart_ratio": 30.71
+    },
+    {
+      "pitcher_name": "김대유",
+      "total_pitches": 170,
+      "heart_pct": 18.24,
+      "shadow_pct": 47.06,
+      "all_strike_pct": 65.29,
+      "heart_ratio": 27.93
+    },
+    {
+      "pitcher_name": "톨허스트",
+      "total_pitches": 713,
+      "heart_pct": 18.51,
+      "shadow_pct": 46.7,
+      "all_strike_pct": 65.22,
+      "heart_ratio": 28.39
+    }
+  ],
+  "bottom_10_pitchers": [
+    {
+      "pitcher_name": "김태현",
+      "total_pitches": 102,
+      "heart_pct": 11.76,
+      "shadow_pct": 32.35,
+      "all_strike_pct": 44.12,
+      "heart_ratio": 26.67
+    },
+    {
+      "pitcher_name": "장재혁",
+      "total_pitches": 120,
+      "heart_pct": 14.17,
+      "shadow_pct": 30.0,
+      "all_strike_pct": 44.17,
+      "heart_ratio": 32.08
+    },
+    {
+      "pitcher_name": "신영우",
+      "total_pitches": 340,
+      "heart_pct": 11.76,
+      "shadow_pct": 33.53,
+      "all_strike_pct": 45.29,
+      "heart_ratio": 25.97
+    },
+    {
+      "pitcher_name": "김동규",
+      "total_pitches": 222,
+      "heart_pct": 11.26,
+      "shadow_pct": 34.23,
+      "all_strike_pct": 45.5,
+      "heart_ratio": 24.75
+    },
+    {
+      "pitcher_name": "성동현",
+      "total_pitches": 239,
+      "heart_pct": 14.64,
+      "shadow_pct": 31.8,
+      "all_strike_pct": 46.44,
+      "heart_ratio": 31.53
+    },
+    {
+      "pitcher_name": "박정수",
+      "total_pitches": 455,
+      "heart_pct": 10.11,
+      "shadow_pct": 37.8,
+      "all_strike_pct": 47.91,
+      "heart_ratio": 21.1
+    },
+    {
+      "pitcher_name": "강건",
+      "total_pitches": 118,
+      "heart_pct": 14.41,
+      "shadow_pct": 33.9,
+      "all_strike_pct": 48.31,
+      "heart_ratio": 29.82
+    },
+    {
+      "pitcher_name": "손현기",
+      "total_pitches": 132,
+      "heart_pct": 13.64,
+      "shadow_pct": 36.36,
+      "all_strike_pct": 50.0,
+      "heart_ratio": 27.27
+    },
+    {
+      "pitcher_name": "최우석",
+      "total_pitches": 327,
+      "heart_pct": 9.17,
+      "shadow_pct": 40.98,
+      "all_strike_pct": 50.15,
+      "heart_ratio": 18.29
+    },
+    {
+      "pitcher_name": "박시영",
+      "total_pitches": 167,
+      "heart_pct": 16.17,
+      "shadow_pct": 34.13,
+      "all_strike_pct": 50.3,
+      "heart_ratio": 32.14
+    }
+  ]
+}

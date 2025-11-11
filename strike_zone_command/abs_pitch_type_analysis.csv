@@ -1,0 +1,4 @@
+﻿pitch_category,pitcher_count,total_pitches,avg_abs_zone_pct,std_abs_zone_pct
+Fastball,202,113362.0,52.77,5.22
+Breaking,150,55043.0,43.44,6.0
+OffSpeed,108,31922.0,38.52,6.94

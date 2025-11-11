@@ -1,0 +1,85 @@
+{
+  "analysis_type": "ABS Detailed Analysis by Situation",
+  "date": "2025-11-11",
+  "note": "레버리지 분석은 DB에 leverage_index 컬럼이 없어 제외",
+  "pitch_type": [
+    {
+      "pitch_category": "Fastball",
+      "pitcher_count": 202,
+      "total_pitches": 113362.0,
+      "avg_abs_zone_pct": 52.77,
+      "std_abs_zone_pct": 5.22
+    },
+    {
+      "pitch_category": "Breaking",
+      "pitcher_count": 150,
+      "total_pitches": 55043.0,
+      "avg_abs_zone_pct": 43.44,
+      "std_abs_zone_pct": 6.0
+    },
+    {
+      "pitch_category": "OffSpeed",
+      "pitcher_count": 108,
+      "total_pitches": 31922.0,
+      "avg_abs_zone_pct": 38.52,
+      "std_abs_zone_pct": 6.94
+    }
+  ],
+  "count_situation": [
+    {
+      "count_situation": "First Pitch",
+      "total_pitches": 57078,
+      "avg_abs_zone_pct": 50.84
+    },
+    {
+      "count_situation": "Ahead",
+      "total_pitches": 27902,
+      "avg_abs_zone_pct": 43.11
+    },
+    {
+      "count_situation": "Behind",
+      "total_pitches": 42601,
+      "avg_abs_zone_pct": 53.09
+    },
+    {
+      "count_situation": "Even",
+      "total_pitches": 22296,
+      "avg_abs_zone_pct": 48.46
+    },
+    {
+      "count_situation": "Two Strikes",
+      "total_pitches": 64097,
+      "avg_abs_zone_pct": 40.43
+    },
+    {
+      "count_situation": "Three Balls",
+      "total_pitches": 7940,
+      "avg_abs_zone_pct": 55.54
+    }
+  ],
+  "runners_situation": [
+    {
+      "runners_situation": "Empty",
+      "total_pitches": 119204,
+      "avg_abs_zone_pct": 48.74
+    },
+    {
+      "runners_situation": "On Base",
+      "total_pitches": 46741,
+      "avg_abs_zone_pct": 46.94
+    },
+    {
+      "runners_situation": "RISP",
+      "total_pitches": 55969,
+      "avg_abs_zone_pct": 44.22
+    }
+  ],
+  "summary": {
+    "easiest_pitch_type": "Fastball",
+    "easiest_pitch_type_pct": 52.77,
+    "hardest_pitch_type": "OffSpeed",
+    "hardest_pitch_type_pct": 38.52,
+    "two_strikes_vs_first_pitch": -10.410000000000004,
+    "risp_vs_empty": -4.520000000000003
+  }
+}

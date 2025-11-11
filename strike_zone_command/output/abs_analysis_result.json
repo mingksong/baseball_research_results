@@ -1,0 +1,170 @@
+{
+  "analysis_type": "ABS Strike Zone Command (100+ pitches)",
+  "date": "2025-11-11",
+  "total_pitchers": 236,
+  "league_average": {
+    "regulation_zone": 37.79,
+    "abs_zone": 46.25,
+    "shadow_zone": 8.47
+  },
+  "top_10": [
+    {
+      "pitcher_name": "조이현",
+      "team_id": "KT",
+      "total_pitches": 175,
+      "regulation_zone_pct": 53.71,
+      "abs_zone_pct": 63.43
+    },
+    {
+      "pitcher_name": "구창모",
+      "team_id": "NC",
+      "total_pitches": 231,
+      "regulation_zone_pct": 51.95,
+      "abs_zone_pct": 61.04
+    },
+    {
+      "pitcher_name": "한현희",
+      "team_id": "LT",
+      "total_pitches": 168,
+      "regulation_zone_pct": 47.62,
+      "abs_zone_pct": 57.14
+    },
+    {
+      "pitcher_name": "소형준",
+      "team_id": "KT",
+      "total_pitches": 2271,
+      "regulation_zone_pct": 46.59,
+      "abs_zone_pct": 56.1
+    },
+    {
+      "pitcher_name": "오승환",
+      "team_id": "SS",
+      "total_pitches": 192,
+      "regulation_zone_pct": 41.67,
+      "abs_zone_pct": 54.69
+    },
+    {
+      "pitcher_name": "코엔 윈",
+      "team_id": "LG",
+      "total_pitches": 420,
+      "regulation_zone_pct": 46.43,
+      "abs_zone_pct": 54.05
+    },
+    {
+      "pitcher_name": "잭로그",
+      "team_id": "OB",
+      "total_pitches": 2782,
+      "regulation_zone_pct": 44.5,
+      "abs_zone_pct": 52.95
+    },
+    {
+      "pitcher_name": "패트릭",
+      "team_id": "KT",
+      "total_pitches": 947,
+      "regulation_zone_pct": 43.82,
+      "abs_zone_pct": 52.8
+    },
+    {
+      "pitcher_name": "톨허스트",
+      "team_id": "LG",
+      "total_pitches": 713,
+      "regulation_zone_pct": 42.5,
+      "abs_zone_pct": 52.45
+    },
+    {
+      "pitcher_name": "윤태호",
+      "team_id": "OB",
+      "total_pitches": 277,
+      "regulation_zone_pct": 42.6,
+      "abs_zone_pct": 52.35
+    }
+  ],
+  "bottom_10": [
+    {
+      "pitcher_name": "김동현",
+      "team_id": "KT",
+      "total_pitches": 118,
+      "regulation_zone_pct": 33.05,
+      "abs_zone_pct": 38.98
+    },
+    {
+      "pitcher_name": "김태현",
+      "team_id": "NC",
+      "total_pitches": 102,
+      "regulation_zone_pct": 32.35,
+      "abs_zone_pct": 38.24
+    },
+    {
+      "pitcher_name": "이교훈",
+      "team_id": "OB",
+      "total_pitches": 127,
+      "regulation_zone_pct": 30.71,
+      "abs_zone_pct": 37.8
+    },
+    {
+      "pitcher_name": "성동현",
+      "team_id": "LG",
+      "total_pitches": 239,
+      "regulation_zone_pct": 30.96,
+      "abs_zone_pct": 37.66
+    },
+    {
+      "pitcher_name": "최우석",
+      "team_id": "NC",
+      "total_pitches": 327,
+      "regulation_zone_pct": 28.44,
+      "abs_zone_pct": 37.61
+    },
+    {
+      "pitcher_name": "박정수",
+      "team_id": "OB",
+      "total_pitches": 455,
+      "regulation_zone_pct": 29.89,
+      "abs_zone_pct": 37.36
+    },
+    {
+      "pitcher_name": "손현기",
+      "team_id": "WO",
+      "total_pitches": 132,
+      "regulation_zone_pct": 27.27,
+      "abs_zone_pct": 36.36
+    },
+    {
+      "pitcher_name": "신영우",
+      "team_id": "NC",
+      "total_pitches": 340,
+      "regulation_zone_pct": 29.41,
+      "abs_zone_pct": 35.88
+    },
+    {
+      "pitcher_name": "김동규",
+      "team_id": "WO",
+      "total_pitches": 222,
+      "regulation_zone_pct": 28.38,
+      "abs_zone_pct": 34.68
+    },
+    {
+      "pitcher_name": "장재혁",
+      "team_id": "HT",
+      "total_pitches": 120,
+      "regulation_zone_pct": 22.5,
+      "abs_zone_pct": 32.5
+    }
+  ],
+  "survival_bias": {
+    "100_200_pitches": {
+      "count": 32,
+      "avg_abs": 45.16
+    },
+    "1000_plus_pitches": {
+      "count": 81,
+      "avg_abs": 47.36
+    },
+    "bias_size": 2.200000000000003
+  },
+  "comparison_500plus": {
+    "avg_100plus": 46.25,
+    "avg_500plus": 47.06,
+    "difference": 0.8100000000000023
+  }
+}

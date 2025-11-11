@@ -1,0 +1,241 @@
+{
+  "analysis_type": "Called Strike% vs Zone% Analysis (Framing Effect)",
+  "date": "2025-11-11",
+  "pitch_result_mapping": {
+    "S": "Strike (룩킹 스트라이크)",
+    "W": "Whiff (헛스윙 스트라이크)",
+    "F": "Foul (파울, 스트라이크)",
+    "H": "Hit (인플레이)",
+    "B": "Ball"
+  },
+  "league_average": {
+    "called_strike_pct": 43.94398305084745,
+    "looking_strike_pct": 17.63165254237288,
+    "whiff_pct": 9.288347457627118,
+    "csw_pct": 26.92029661016949,
+    "abs_zone_pct": 46.25440677966102,
+    "framing_effect": -2.3104237288135594,
+    "scsr": 30.83919028340081,
+    "fps_zone_pct": 49.20149779735683,
+    "fps_called_pct": 47.27044052863436,
+    "fps_framing": -1.9308370044052865
+  },
+  "by_count": [
+    {
+      "count_situation": "First Pitch",
+      "total_pitches": 57078,
+      "called_strike_pct": 48.86,
+      "looking_strike_pct": 32.45,
+      "whiff_pct": 6.19,
+      "csw_pct": 38.65,
+      "abs_zone_pct": 50.84,
+      "framing_effect": -1.98
+    },
+    {
+      "count_situation": "Ahead",
+      "total_pitches": 27902,
+      "called_strike_pct": 41.98,
+      "looking_strike_pct": 13.88,
+      "whiff_pct": 10.88,
+      "csw_pct": 24.77,
+      "abs_zone_pct": 43.11,
+      "framing_effect": -1.13
+    },
+    {
+      "count_situation": "Behind",
+      "total_pitches": 42601,
+      "called_strike_pct": 47.9,
+      "looking_strike_pct": 22.27,
+      "whiff_pct": 8.84,
+      "csw_pct": 31.11,
+      "abs_zone_pct": 53.09,
+      "framing_effect": -5.19
+    },
+    {
+      "count_situation": "Even",
+      "total_pitches": 22296,
+      "called_strike_pct": 44.05,
+      "looking_strike_pct": 12.85,
+      "whiff_pct": 11.23,
+      "csw_pct": 24.08,
+      "abs_zone_pct": 48.46,
+      "framing_effect": -4.41
+    },
+    {
+      "count_situation": "Two Strikes",
+      "total_pitches": 64097,
+      "called_strike_pct": 41.44,
+      "looking_strike_pct": 4.11,
+      "whiff_pct": 12.79,
+      "csw_pct": 16.9,
+      "abs_zone_pct": 40.43,
+      "framing_effect": 1.01
+    },
+    {
+      "count_situation": "Three Balls",
+      "total_pitches": 7940,
+      "called_strike_pct": 49.97,
+      "looking_strike_pct": 33.14,
+      "whiff_pct": 4.69,
+      "csw_pct": 37.82,
+      "abs_zone_pct": 55.54,
+      "framing_effect": -5.57
+    }
+  ],
+  "by_runners": [
+    {
+      "runners_situation": "Empty",
+      "total_pitches": 119204,
+      "called_strike_pct": 46.61,
+      "looking_strike_pct": 19.72,
+      "whiff_pct": 9.48,
+      "csw_pct": 29.2,
+      "abs_zone_pct": 48.74,
+      "framing_effect": -2.13
+    },
+    {
+      "runners_situation": "On Base",
+      "total_pitches": 46741,
+      "called_strike_pct": 44.65,
+      "looking_strike_pct": 16.82,
+      "whiff_pct": 9.86,
+      "csw_pct": 26.68,
+      "abs_zone_pct": 46.94,
+      "framing_effect": -2.29
+    },
+    {
+      "runners_situation": "RISP",
+      "total_pitches": 55969,
+      "called_strike_pct": 42.75,
+      "looking_strike_pct": 15.44,
+      "whiff_pct": 9.84,
+      "csw_pct": 25.28,
+      "abs_zone_pct": 44.22,
+      "framing_effect": -1.47
+    }
+  ],
+  "top_10_csw": [
+    {
+      "pitcher_name": "곽도규",
+      "total_pitches": 121,
+      "csw_pct": 38.84,
+      "looking_strike_pct": 24.79,
+      "whiff_pct": 14.05
+    },
+    {
+      "pitcher_name": "폰세",
+      "total_pitches": 2964,
+      "csw_pct": 35.19,
+      "looking_strike_pct": 18.83,
+      "whiff_pct": 16.36
+    },
+    {
+      "pitcher_name": "유영찬",
+      "total_pitches": 602,
+      "csw_pct": 34.88,
+      "looking_strike_pct": 16.28,
+      "whiff_pct": 18.6
+    },
+    {
+      "pitcher_name": "홍민기",
+      "total_pitches": 497,
+      "csw_pct": 33.0,
+      "looking_strike_pct": 19.72,
+      "whiff_pct": 13.28
+    },
+    {
+      "pitcher_name": "이준영",
+      "total_pitches": 525,
+      "csw_pct": 32.95,
+      "looking_strike_pct": 20.57,
+      "whiff_pct": 12.38
+    },
+    {
+      "pitcher_name": "최준용",
+      "total_pitches": 825,
+      "csw_pct": 32.85,
+      "looking_strike_pct": 17.33,
+      "whiff_pct": 15.52
+    },
+    {
+      "pitcher_name": "앤더슨",
+      "total_pitches": 2887,
+      "csw_pct": 32.8,
+      "looking_strike_pct": 18.57,
+      "whiff_pct": 14.24
+    },
+    {
+      "pitcher_name": "고영표",
+      "total_pitches": 2611,
+      "csw_pct": 32.71,
+      "looking_strike_pct": 19.19,
+      "whiff_pct": 13.52
+    },
+    {
+      "pitcher_name": "로젠버그",
+      "total_pitches": 1380,
+      "csw_pct": 32.54,
+      "looking_strike_pct": 20.72,
+      "whiff_pct": 11.81
+    },
+    {
+      "pitcher_name": "라일리",
+      "total_pitches": 3025,
+      "csw_pct": 32.43,
+      "looking_strike_pct": 19.77,
+      "whiff_pct": 12.66
+    }
+  ],
+  "top_10_scsr": [
+    {
+      "pitcher_name": "박준영",
+      "shadow_pitches": 36,
+      "scsr": 44.44
+    },
+    {
+      "pitcher_name": "신영우",
+      "shadow_pitches": 114,
+      "scsr": 42.98
+    },
+    {
+      "pitcher_name": "고효준",
+      "shadow_pitches": 155,
+      "scsr": 41.29
+    },
+    {
+      "pitcher_name": "이재익",
+      "shadow_pitches": 63,
+      "scsr": 41.27
+    },
+    {
+      "pitcher_name": "박기호",
+      "shadow_pitches": 148,
+      "scsr": 41.22
+    },
+    {
+      "pitcher_name": "김성민",
+      "shadow_pitches": 156,
+      "scsr": 41.03
+    },
+    {
+      "pitcher_name": "박세현",
+      "shadow_pitches": 35,
+      "scsr": 40.0
+    },
+    {
+      "pitcher_name": "황준서",
+      "shadow_pitches": 412,
+      "scsr": 39.32
+    },
+    {
+      "pitcher_name": "이정용",
+      "shadow_pitches": 237,
+      "scsr": 38.82
+    },
+    {
+      "pitcher_name": "김연주",
+      "shadow_pitches": 395,
+      "scsr": 38.48
+    }
+  ]
+}
