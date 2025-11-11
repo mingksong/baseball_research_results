@@ -1,5 +1,11 @@
 # 원태인 투수 상세 분석 보고서
 
+## ⚠️ 중요 업데이트 (2025-11-11)
+**버그 수정**: `04_opponent_analysis.py`의 home/away 로직 오류 수정
+- **문제**: SS(삼성)가 상대팀으로 잘못 분류됨 (원태인은 SS 소속)
+- **수정**: 상대팀 판단 로직 수정 완료
+- **결과**: 올바른 9개 타팀 데이터로 업데이트
+
 ## 📋 연구 목적
 원태인 투수의 투구 패턴, 피로도, 상대별 성적을 종합 분석하여 투구 전략 및 기용 방안 제시
 
@@ -13,24 +19,33 @@
 - **기간**: 2021-2025 (5시즌)
 - **데이터 소스**: KBO 야구 데이터베이스
 
-## 📈 분석 결과
+## 🚀 실행 방법
 
-### 디렉토리 구조
+### 1. 데이터베이스 설정 (필수!)
+```bash
+# 프로젝트 루트에서 config.py 설정 (최초 1회)
+cd /path/to/baseball_research
+cp config.example.py config.py
+# config.py 파일을 열어서 실제 DB 정보 입력
 ```
-won_taein_analysis/
-├── README.md
-├── data/          # 추출된 데이터 (CSV)
-└── report/        # 시각화 차트 및 최종 보고서
-    └── FINAL_REPORT.md
+
+📚 **자세한 설정**: [프로젝트 루트 README.md](../README.md) 참조
+
+### 2. 분석 스크립트 실행
+```bash
+# 1. 데이터 추출
+python scripts/01_extract_data.py
+
+# 2. 로케이션 분석
+python scripts/02_location_analysis.py
+
+# 3. 피로도 분석
+python scripts/03_fatigue_analysis.py
+
+# 4. 상대별 분석
+python scripts/04_opponent_analysis.py
 ```
 
-### 주요 결과물
-- **최종 보고서**: [FINAL_REPORT.md](report/FINAL_REPORT.md)
-- **데이터 파일**: 25개 CSV 파일 (data/ 폴더)
-- **시각화**: 27개 차트 (report/ 폴더)
-
-### 핵심 발견사항
-- 5시즌 134경기 등판, 12,736개 투구
-- 주력 구종: 직구(44.2%), 체인지업(24.4%), 슬라이더(23.0%)
-- 좌타자 상대 체인지업 29.83%, 우타자 상대 슬라이더 26.62% 집중 사용
-- 2024-2025 시즌 plate_z 디폴트 값 문제 발견 및 물리량 기반 보정 완료
+## 📈 결과
+- `report/` 폴더에 모든 CSV 파일 및 시각화 저장
+- 최종 보고서: `report/final_report.md`
